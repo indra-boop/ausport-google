@@ -1,0 +1,8 @@
+.clasp.json
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
+credentials.json
+client_secret*.json
