@@ -1,0 +1,22 @@
+# Label path untuk PR router gratis (.github/workflows/pr-router.yml).
+# Labeler tidak pernah menjalankan kode PR; file ini hanya konfigurasi pencocokan path.
+
+frontend:
+  - changed-files:
+      - any-glob-to-any-file:
+          - src/**
+
+governance:
+  - changed-files:
+      - any-glob-to-any-file:
+          - CLAUDE.md
+
+docs:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.md"
+
+ci:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/**"
